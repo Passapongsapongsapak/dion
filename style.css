@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1450704944629-6a65f6810cf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80);
+    background-size: cover;
+    
+  
+}
+.container{
+    color: whitesmoke;
+    border: solid 0px rgb(255, 255, 255);
+    max-width: 90%;
+    height: 20cm;
+    margin: 0cm auto;
+    background-image: url(https://images.unsplash.com/photo-1588710252545-a41de3122de1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
+    background-size: cover; 
+   
+}
+.name-brand{
+    margin: 1.5cm;
+    padding: 1.5cm;
+    font-size: 3cm;
+}
+.navbar ul{
+    position: absolute;
+    top: 3cm;
+    right: 2cm;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    display: inline-block;
+    list-style: non;
+    
+}
+
+section{
+    display: inline-block;
+    position: relative;
+    left: 3cm;
+    font-size: 1cm;
+    border-top:solid 5px crimson;
+}
+footer{
+  
+    max-width: 90%;
+    min-height: 5cm;
+position:absolute;
+margin-top: 6cm;
+}
+.box {
+    min-height: 5cm;
+    color: black;
+    background-color: whitesmoke;
+    box-sizing: border;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0cm 2cm;
+  padding-top: 1cm;
+  padding-left: 1cm;
+}
+
+button{
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+   margin-right: 1cm;
+   padding: 10px;
+   transition: ease-out 0.4s;
+}
+button:hover{
+    border-bottom:solid 5px crimson;
+}
